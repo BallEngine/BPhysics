@@ -6,4 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 project ("BPhysics")
 
 # 包含子项目。
+add_subdirectory ("Console")
 add_subdirectory ("BPhysics")
+
