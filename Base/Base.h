@@ -19,6 +19,5 @@ typedef unsigned __int32 ui32;
 typedef unsigned __int64 ui64;
 
 typedef unsigned char uchar;
-typedef unsigned long double uld;
 
 
