@@ -7,6 +7,7 @@
 #include <list>
 #include <queue>
 #include <stack>
+#include <bitset>
 
 typedef __int16 i16;
 typedef __int32 i32;
