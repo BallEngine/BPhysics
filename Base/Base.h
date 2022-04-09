@@ -1,4 +1,5 @@
 #pragma once
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,5 +21,10 @@ typedef unsigned __int32 ui32;
 typedef unsigned __int64 ui64;
 
 typedef unsigned char uchar;
+
+#define EXTERN_INC extern "C"
+#define EXTERN_CPP extern "C++"
+#define EXTERN_API __declspec(dllexport)
+#define EXTERN_ALL extern "C" __declspec(dllexport)
 
 

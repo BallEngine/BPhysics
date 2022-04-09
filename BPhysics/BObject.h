@@ -14,7 +14,7 @@ namespace BPhysics{
     class BObject{
         public:
         std::string Name;
-        std::bitset<64> Size;
+        std::bitset<64U> Size;
         std::string GetHashCode();
         std::string ToString();
     };
